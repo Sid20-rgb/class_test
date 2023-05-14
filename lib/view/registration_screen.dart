@@ -111,8 +111,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                 onPressed: () {
                   if (_formKey.currentState!.validate()) {
                     _formKey.currentState!.save();
-                    // Perform login or further actions
-                    // String studentId = studentIdController.text;
+                    
                     Navigator.push(
                       context,
                       MaterialPageRoute(

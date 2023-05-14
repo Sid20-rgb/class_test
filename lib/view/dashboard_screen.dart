@@ -17,8 +17,6 @@ class _DashboardScreenState extends State<DashboardScreen> {
   @override
   void initState() {
     super.initState();
-    // Fetch student details based on the student ID from an API or database
-    // Here, we'll use a dummy student object for demonstration purposes
     student = Student(
       studentId: widget.studentId,
       firstName: 'Sid',
